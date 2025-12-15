@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+body{
+    background: #e5e5e5;
+}
+
+.container{
+    background: #F4F4F4;
+    width: 375px;
+    height: 766px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+header{
+    background: #1B83E2;
+    height: 66px;
+
+}
+
+h1{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #F4F4F4;
+    padding-top: 24px;
+}
+
+main{
+    padding: 24px;
+    
+}
+
+label{
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+    margin-top: 24px;
+}
+
+select{
+    display: block;
+    width: 100%;
+    height: 48px;
+    top: 113px;
+    left: 24px;
+    opacity: 1;
+    border-radius: 4px;
+    border-width: 1px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding: 16px;
+    box-shadow: 2px 2px 5px 0px #00000026;
+    margin-bottom: 24px;
+
+}
+
+input{
+    display: block;
+    width: 100%;
+    height: 48px;
+    top: 302px;
+    left: 24px;
+    border-radius: 4px;
+    border-width: 1px;
+    border: 1px solid #BBBBBB;
+
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 24px;
+    box-shadow: 2px 2px 5px 0px #00000026;
+    padding: 16px;
+
+}
+
+button{
+    width: 100%;
+    height: 48px;
+    border-radius: 25px;
+    background: #1B83E2;
+    border: none;
+
+    font-weight: 700;
+    font-size: 16px;
+    color: #F4F4F4;
+    margin-bottom: 36px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+section{
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+}
+
+.result-container{
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name{
+    font-weight: 400;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #777777;
+}
+
+.currency-value{
+    font-weight: 700;
+    font-size: 20px;
+    color: #1B83E2;
+}
+
+.seta{
+    margin: 15px auto;
+    display: block;
+}
+
